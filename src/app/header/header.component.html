@@ -1,0 +1,9 @@
+<header>
+  <div class="logo"><img src="assets/img/logo.png" /> </div>
+  <ul class="header-menu">
+    <li *ngFor="let menu of menus">
+      <a [routerLink]="menu.url" routerLinkActive="selected" [routerLinkActiveOptions]="{exact: true}">{{menu.menu}}</a>
+    </li>
+    <li class="heder-menu__login"><a color="primary" (click)="login()">Login</a></li>
+  </ul>
+</header>
