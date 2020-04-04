@@ -4,12 +4,24 @@
       <!-- <p class="promo_blue">Over 2000 tutorial hrs and
         <br />25 years of teaching experience</p> -->
 
-      <div class="promo_red">
+      <div class="promo">
         <p>Tutorials are 1 on 1</p>
       </div>
+      <p>Please Download Zoom <a>https://zoom.us/download</a></p>
       <div class="self-autonomous">
-        <p>For self-autonomous users please see our collection of texts for the PTE and IELTS in
-          amazon.in</p>
+        <p>For self-autonomous learners, please click and see a study guides below:</p>
+        <div class="amazon-link">
+
+          <a target="_blank"
+            href="https://www.amazon.com/PTE-Writing-Working-through-writing-ebook/dp/B07YVMJJ73/ref=sr_1_1?dchild=1&keywords=mjg+education&qid=1585987574&sr=8-1">
+            <img src="assets/img/51XOUT2-lSL.jpg" />
+          </a>
+
+          <a href="https://www.amazon.com/Complete-PTE-Speaking-Listening-Reading-ebook/dp/B084GTD7K8/ref=sr_1_3?dchild=1&keywords=mjg+education&qid=1585987574&sr=8-3"
+            target="_blank"><img src="assets/img/41LY6glLS2L.jpg" /></a>
+        </div>
+        <br />
+
         <a class="link-with-icon" mailto="matmjgeducation@gmail.com">
           <mat-icon aria-hidden="false" aria-label="email">email</mat-icon> matmjgeducation@gmail.com
         </a>
@@ -18,24 +30,28 @@
   </div>
   <div class="right-panel">
     <p class="main-para">This website is dedicated to students of English, especially those pursuing accreditations for
-      the
-      <span class="red-highlight"><b>IELTS</b></span>, <span class="red-highlight"><b>PTE</b></span> and <span
-        class="red-highlight"><b>CELPIP</b></span> exams. Owned and run by English
-      teachers with over
-      2000 tutorial hours and 25 years
-      teaching and
-      several years experience as an IELTS examiner.</p>
+      the <b>IELTS</b>, <b>PTE</b> and <b>CELPIP</b> exams. Owned and run by English teachers with over
+      2000 tutorial hours and 25 years teaching and several years experience as an IELTS examiner.</p>
+    <p>Tutorial are 55 to 60 minutes CAD 45.00 + GS given by Expert tutors.</p>
+    <p>Also, 15-20 minute Speaking Mock Tests CAD 17.50 with a complete IELTS descriptor break down and commentary of
+      your performance (in person and emailed) are also offered..</p>
 
+
+    <div class="course-container">
+      <div class="pte-content">
+        <app-pte-content></app-pte-content>
+
+      </div>
+      <div class="ielts-content">
+        <app-ielts-content></app-ielts-content>
+      </div>
+    </div>
+    <!-- 
     <mat-tab-group class="landing-tabs" disableRipple>
       <mat-tab label="IELTS">
-        <app-ielts-content></app-ielts-content>
       </mat-tab>
       <mat-tab label="PTE">
-        <app-pte-content></app-pte-content>
       </mat-tab>
-      <mat-tab label="CELPIP">
-        <app-celpip-content></app-celpip-content>
-      </mat-tab>
-    </mat-tab-group>
+    </mat-tab-group> -->
   </div>
 </div>

@@ -3,7 +3,7 @@
 .landing-page {display: flex; padding-top: 20px;}
 
 .left-panel > div {
-  width: 420px;
+  width: 380px;
   margin-right: 73px
 }
 
@@ -12,11 +12,21 @@
   flex: 100%;
   .main-para {
     padding: 0 70px 0 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  .course-container {
+    display: flex;
+  }
+}
+.amazon-link {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 70%
   }
 }
 
-.promo_red {
+.promo {
   margin-top: 0px;
   p {
    font-size: 30px;
@@ -26,8 +36,14 @@
   }
 }
 
-div.self-autonomous {
-  p {
-    margin: 0 0 20px 0;
-  }
+.pte-content {
+  padding-right: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.link-with-icon {
+  background-color: rgba($color: #fff, $alpha: 0.6);
+  border-radius: 10px;
+  padding: 2px 0 3px 20px;
 }
