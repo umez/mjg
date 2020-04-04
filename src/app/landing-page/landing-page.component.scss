@@ -14,31 +14,17 @@
   }
 }
 
-p.promo_blue {
-  font-size: 28px;
-  color: $blue;
-  font-weight: bold;
-  padding: 0 ;
-  margin: 15px 0 ;
-  line-height: 1.8em;
-}
-
 .promo_red {
-  margin-top: 30px;
+  margin-top: 0px;
   p {
    font-size: 30px;
-   color: $red;
+  //  color: $red;
    font-weight: bold;
    span {display: block;}
   }
 }
 
 div.self-autonomous {
-  margin-top: 50px;
-  background: #fff;
-  border: 1px solid $blue;
-  padding: 20px;
-  border-radius: 30px;
   p {
     margin: 0 0 20px 0;
   }
